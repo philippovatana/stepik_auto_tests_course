@@ -21,3 +21,4 @@ browser.find_element(By.CSS_SELECTOR, 'button[id="book"]').click()
 x = int(browser.find_element_by_id('input_value').text)
 answer_input = browser.find_element_by_id('answer').send_keys(calc(x))
 browser.find_element_by_css_selector('button[type="submit"]').click()
+# Д З
